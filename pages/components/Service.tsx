@@ -20,7 +20,7 @@ const Service: NextPage = () => {
       <div className="flex justify-center">
         <div className="grid grid-cols-4 gap-10 mt-36 max-[1420px]:grid-cols-2 max-[751px]:grid-cols-1">
           <motion.div
-            initial={{ opacity: 0, x: "-100%" }}
+            initial={{ opacity: 0, x: "-10%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
@@ -43,10 +43,10 @@ const Service: NextPage = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+             initial={{ opacity: 0, x: "-10%" }}
+             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.4, duration: 0.8 }}
+            transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
             className="flex flex-col items-center w-80"
           >
             <img
@@ -67,7 +67,7 @@ const Service: NextPage = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: "100%" }}
+            initial={{ opacity: 0, x: "10%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
@@ -82,7 +82,7 @@ const Service: NextPage = () => {
               Influencer marketing
             </p>
             <p className="text-center font-[transducer-hairline] mb-6">
-              NFT influencer marketing is one the most effective tool we’ve used
+              NFT influencer marketing is one the most effective tool we've used
               at Caspers Lbas to grow NFT communities and sell out the various
               NFT collections. NFT influencer marketing will help you
               supercharge community growth on Twitter and Discord.
@@ -91,7 +91,7 @@ const Service: NextPage = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: "100%" }}
+            initial={{ opacity: 0, x: "10%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
