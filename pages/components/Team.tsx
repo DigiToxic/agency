@@ -85,8 +85,8 @@ const Testimonial: NextPage = () => {
               WEB3 full time. Participated in the creation of such projects as
               Lords Mobile and Castle Clash, he successfully uses his knowledge
               and skills in working with clients and the team within our agency.
-              "Only .001% of projects will still be around in 10 years, we here
-              for long term run"
+              &quot;Only .001% of projects will still be around in 10 years, we here
+              for long term run&quot;
             </p>
           </motion.div>
 
