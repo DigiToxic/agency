@@ -23,8 +23,8 @@ const Service: NextPage = () => {
       <div className="flex justify-center">
         <div className="grid grid-cols-4 gap-10 mt-36 max-[1420px]:grid-cols-2 max-[751px]:grid-cols-1">
           <motion.div
-            initial={{ opacity: 0, x: "-10%" }}
-            whileInView={{ opacity: 1, x: "0%" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
             className="flex flex-col items-center w-80"
@@ -46,8 +46,8 @@ const Service: NextPage = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: "-10%" }}
-            whileInView={{ opacity: 1, x: "0%" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
             className="flex flex-col items-center w-80"
@@ -70,8 +70,8 @@ const Service: NextPage = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: "10%" }}
-            whileInView={{ opacity: 1, x: "0%" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
             className="flex flex-col items-center w-80"
@@ -94,8 +94,8 @@ const Service: NextPage = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: "10%" }}
-            whileInView={{ opacity: 1, x: "0%" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
             className="flex flex-col items-center w-80"

@@ -51,7 +51,7 @@ const Home: NextPage = () => {
   return (
     <div
       id="Index"
-      className="bg-gradient-to-b from-[#111111] to-[#36352c] h-screen overflow-x-hidden"
+      className="bg-gradient-to-b from-[#111111] to-[#36352c] h-[120vh]"
     >
       <div className="pt-4">
         <Header />
