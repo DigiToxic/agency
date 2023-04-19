@@ -49,7 +49,7 @@ const Service: NextPage = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
+            transition={{ delay: 0.4, duration: 0.8, type: "spring" }}
             className="flex flex-col items-center w-80"
           >
             <img
@@ -73,7 +73,7 @@ const Service: NextPage = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
+            transition={{ delay: 0.6, duration: 0.8, type: "spring" }}
             className="flex flex-col items-center w-80"
           >
             <img
@@ -97,7 +97,7 @@ const Service: NextPage = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
+            transition={{ delay: 0.8, duration: 0.8, type: "spring" }}
             className="flex flex-col items-center w-80"
           >
             <img
