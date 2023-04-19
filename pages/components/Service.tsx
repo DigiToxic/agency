@@ -17,14 +17,14 @@ const Service: NextPage = () => {
         </p>
       </motion.div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center overflow-x-hidden">
         <div className="grid grid-cols-4 gap-10 mt-36 max-[1420px]:grid-cols-2 max-[751px]:grid-cols-1">
           <motion.div
             initial={{ opacity: 0, x: "-10%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80"
+            className="flex flex-col items-center w-80 "
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"

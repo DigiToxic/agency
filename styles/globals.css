@@ -22,10 +22,6 @@
   src: url("/fonts/transducer-regular.otf");
 }
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   background-color: #111111;
   -webkit-user-select: none;
@@ -33,6 +29,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow-x: hidden;
 }
 
 /* The container for the scrollbar */

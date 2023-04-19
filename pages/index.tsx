@@ -68,7 +68,7 @@ const Home: NextPage = () => {
         <img className="w-12 max-[1250px]:w-10" src="/agency/gold_arrow-01-01-01.png" alt="" />
       </div>
 
-      <div className="flex justify-center items-center mt-36 max-[650px]:flex-col">
+      <div className="flex justify-center items-center mt-36 max-[650px]:flex-col overflow-x-hidden">
         <motion.div
           initial={{ opacity: 0, x: "-10%" }}
           whileInView={{ opacity: 1, x: "0%" }}

@@ -7,7 +7,7 @@ const Contact: NextPage = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div id="Contact" className="bg-[#111111] flex flex-col h-[750px]">
+    <div id="Contact" className="bg-[#111111] flex flex-col h-[650px]">
       <motion.div
         initial={{ opacity: 0, y: "-10%" }}
         whileInView={{ opacity: 1, y: "0%" }}
@@ -18,7 +18,7 @@ const Contact: NextPage = () => {
       </motion.div>
 
       <div className="max-[1100px]:flex justify-center">
-        <div className="flex justify-evenly mt-10 max-[1100px]:flex-col max-[1100px]:w-3/4">
+        <div className="flex justify-evenly mt-10 max-[1100px]:flex-col max-[1100px]:w-3/4 overflow-x-hidden">
           <motion.div
             initial={{ opacity: 0, x: "-10%" }}
             whileInView={{ opacity: 1, x: "0%" }}
@@ -69,7 +69,7 @@ const Contact: NextPage = () => {
         </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center overflow-x-hidden">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -94,12 +94,12 @@ const Contact: NextPage = () => {
         </div>
       </motion.div>
 
-      <footer className="mt-20 flex flex-col">
+    {/*  <footer className="mt-20 flex flex-col">
         <div className="bg-[#111111] flex justify-center">
           <div className=" w-[90%] border-t-2 border-[#444138]"></div>
         </div>
 
-        <motion.div
+         <motion.div
           initial={{ opacity: 0, x: "-10%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
@@ -110,7 +110,7 @@ const Contact: NextPage = () => {
           transition={{ delay: 0.5, duration: 0.8, type: "spring" }}
           className="flex ml-[8%]"
         >
-       {/*  <div className="flex justify-between w-96 mt-5 max-[800px]:w-72">
+        <div className="flex justify-between w-96 mt-5 max-[800px]:w-72">
             <img
               className="w-11 cursor-pointer hover:scale-110 ease-in-out duration-300 max-[800px]:w-9"
               src="/agency/discord-2-512.png"
@@ -136,9 +136,9 @@ const Contact: NextPage = () => {
               src="/agency/new-post-512.png"
               alt=""
             />
-          </div> */} 
+          </div> 
         </motion.div>
-      </footer>
+      </footer>*/} 
     </div>
   );
 };
