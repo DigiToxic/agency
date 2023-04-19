@@ -10,7 +10,7 @@ const Service: NextPage = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.2, duration: 0.5 }}
-        className="flex justify-center"
+        className="flex justify-center overflow-x-hidden"
       >
         <p className="font-[transducer-black] text-4xl mt-20">
           Services Offered
@@ -24,7 +24,7 @@ const Service: NextPage = () => {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80 "
+            className="flex flex-col items-center w-80 overflow-x-hidden"
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"
@@ -47,7 +47,7 @@ const Service: NextPage = () => {
              whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80"
+            className="flex flex-col items-center w-80 overflow-x-hidden"
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"
@@ -71,7 +71,7 @@ const Service: NextPage = () => {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80"
+            className="flex flex-col items-center w-80 overflow-x-hidden"
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"
@@ -95,7 +95,7 @@ const Service: NextPage = () => {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80"
+            className="flex flex-col items-center w-80 overflow-x-hidden"
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"

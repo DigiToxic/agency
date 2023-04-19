@@ -74,6 +74,7 @@ const Home: NextPage = () => {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
+          className="overflow-x-hidden"
         >
           <p className="text-start font-[transducer-black] text-5xl w-5/6 max-[1100px]:text-4xl max-[751px]:text-3xl max-[650px]:w-full max-[650px]:mb-10">
           Caspers Labs, <br /> Your NFT <br /> Marketing Agency
@@ -84,6 +85,7 @@ const Home: NextPage = () => {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
+          className="overflow-x-hidden"
         >
           <img className="w-96 max-[1100px]:w-80 max-[751px]:w-72" src="/agency/caspers_logo-01.png" alt="" />
         </motion.div>
@@ -95,6 +97,7 @@ const Home: NextPage = () => {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.2}}
+          className="overflow-x-hidden"
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
             33k
@@ -109,6 +112,7 @@ const Home: NextPage = () => {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.4, duration: 0.4}}
+          className="overflow-x-hidden"
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
             10m
@@ -123,6 +127,7 @@ const Home: NextPage = () => {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.6, duration: 0.6}}
+          className="overflow-x-hidden"
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
             69420$
@@ -137,6 +142,7 @@ const Home: NextPage = () => {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.8, duration: 0.8}}
+          className="overflow-x-hidden"
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
             20m
