@@ -23,7 +23,7 @@ const Testimonial: NextPage = () => {
       <div className="max-[880px]:flex max-[880px]:justify-center">
         <div className="flex justify-evenly max-[880px]:flex-col max-[880px]:justify-center">
           <motion.div
-            initial={{ opacity: 0, x: "-10%" }}
+            initial={{ opacity: 0, x: "-5%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
@@ -91,7 +91,7 @@ const Testimonial: NextPage = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: "10%" }}
+            initial={{ opacity: 0, x: "5%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
