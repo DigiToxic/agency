@@ -4,27 +4,30 @@ import { motion } from "framer-motion";
 
 const Service: NextPage = () => {
   return (
-    <div id="Services" className="bg-[#111111] flex flex-col h-[820px] max-[1420px]:h-[1200px] max-[751px]:h-[2000px]">
+    <div
+      id="Services"
+      className="bg-[#111111] flex flex-col h-[820px] max-[1420px]:h-[1200px] max-[751px]:h-[2000px]"
+    >
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.2, duration: 0.5 }}
-        className="flex justify-center overflow-x-hidden"
+        className="flex justify-center"
       >
         <p className="font-[transducer-black] text-4xl mt-20">
           Services Offered
         </p>
       </motion.div>
 
-      <div className="flex justify-center overflow-x-hidden">
+      <div className="flex justify-center">
         <div className="grid grid-cols-4 gap-10 mt-36 max-[1420px]:grid-cols-2 max-[751px]:grid-cols-1">
           <motion.div
             initial={{ opacity: 0, x: "-10%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80 overflow-x-hidden"
+            className="flex flex-col items-center w-80"
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"
@@ -43,11 +46,11 @@ const Service: NextPage = () => {
           </motion.div>
 
           <motion.div
-             initial={{ opacity: 0, x: "-10%" }}
-             whileInView={{ opacity: 1, x: "0%" }}
+            initial={{ opacity: 0, x: "-10%" }}
+            whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80 overflow-x-hidden"
+            className="flex flex-col items-center w-80"
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"
@@ -71,7 +74,7 @@ const Service: NextPage = () => {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80 overflow-x-hidden"
+            className="flex flex-col items-center w-80"
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"
@@ -82,9 +85,9 @@ const Service: NextPage = () => {
               Influencer marketing
             </p>
             <p className="text-center font-[transducer-hairline] mb-6">
-              NFT influencer marketing is one the most effective tool we&apos;ve used
-              at Caspers Lbas to grow NFT communities and sell out the various
-              NFT collections. NFT influencer marketing will help you
+              NFT influencer marketing is one the most effective tool we&apos;ve
+              used at Caspers Lbas to grow NFT communities and sell out the
+              various NFT collections. NFT influencer marketing will help you
               supercharge community growth on Twitter and Discord.
             </p>
             <div className="w-[90%] border-t-4 border-[#444138] mt-5"></div>
@@ -95,7 +98,7 @@ const Service: NextPage = () => {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col items-center w-80 overflow-x-hidden"
+            className="flex flex-col items-center w-80"
           >
             <img
               className="w-14 mb-5 cursor-pointer hover:scale-110 ease-in-out duration-300"

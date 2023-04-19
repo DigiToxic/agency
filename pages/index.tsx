@@ -51,7 +51,7 @@ const Home: NextPage = () => {
   return (
     <div
       id="Index"
-      className="bg-gradient-to-b from-[#111111] to-[#36352c] h-[120vh]"
+      className="bg-gradient-to-b from-[#111111] to-[#36352c] h-screen overflow-x-hidden"
     >
       <div className="pt-4">
         <Header />
@@ -65,19 +65,22 @@ const Home: NextPage = () => {
         }}
         onClick={handleClick}
       >
-        <img className="w-12 max-[1250px]:w-10" src="/agency/gold_arrow-01-01-01.png" alt="" />
+        <img
+          className="w-12 max-[1250px]:w-10"
+          src="/agency/gold_arrow-01-01-01.png"
+          alt=""
+        />
       </div>
 
-      <div className="flex justify-center items-center mt-36 max-[650px]:flex-col overflow-x-hidden">
+      <div className="flex justify-center items-center mt-36 max-[650px]:flex-col">
         <motion.div
           initial={{ opacity: 0, x: "-10%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-          className="overflow-x-hidden"
         >
           <p className="text-start font-[transducer-black] text-5xl w-5/6 max-[1100px]:text-4xl max-[751px]:text-3xl max-[650px]:w-full max-[650px]:mb-10">
-          Caspers Labs, <br /> Your NFT <br /> Marketing Agency
+            Caspers Labs, <br /> Your NFT <br /> Marketing Agency
           </p>
         </motion.div>
         <motion.div
@@ -85,9 +88,12 @@ const Home: NextPage = () => {
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-          className="overflow-x-hidden"
         >
-          <img className="w-96 max-[1100px]:w-80 max-[751px]:w-72" src="/agency/caspers_logo-01.png" alt="" />
+          <img
+            className="w-96 max-[1100px]:w-80 max-[751px]:w-72"
+            src="/agency/caspers_logo-01.png"
+            alt=""
+          />
         </motion.div>
       </div>
 
@@ -96,8 +102,7 @@ const Home: NextPage = () => {
           initial={{ opacity: 0, x: "-10%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.2, duration: 0.2}}
-          className="overflow-x-hidden"
+          transition={{ delay: 0.2, duration: 0.2 }}
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
             33k
@@ -111,8 +116,7 @@ const Home: NextPage = () => {
           initial={{ opacity: 0, x: "-80%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.4, duration: 0.4}}
-          className="overflow-x-hidden"
+          transition={{ delay: 0.4, duration: 0.4 }}
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
             10m
@@ -126,8 +130,7 @@ const Home: NextPage = () => {
           initial={{ opacity: 0, x: "-50%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.6, duration: 0.6}}
-          className="overflow-x-hidden"
+          transition={{ delay: 0.6, duration: 0.6 }}
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
             69420$
@@ -141,8 +144,7 @@ const Home: NextPage = () => {
           initial={{ opacity: 0, x: "-90%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
-          transition={{ delay: 0.8, duration: 0.8}}
-          className="overflow-x-hidden"
+          transition={{ delay: 0.8, duration: 0.8 }}
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
             20m

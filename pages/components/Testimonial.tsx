@@ -13,7 +13,7 @@ const Testimonial: NextPage = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.2, duration: 0.5 }}
-        className="flex justify-center overflow-x-hidden"
+        className="flex justify-center"
       >
         <p className="font-[transducer-black] text-4xl mt-20 mb-16">
           Testimonial
@@ -21,13 +21,13 @@ const Testimonial: NextPage = () => {
       </motion.div>
 
       <div className="max-[880px]:flex max-[880px]:justify-center">
-        <div className="flex justify-evenly max-[880px]:flex-col max-[880px]:justify-center overflow-x-hidden">
+        <div className="flex justify-evenly max-[880px]:flex-col max-[880px]:justify-center">
           <motion.div
             initial={{ opacity: 0, x: "-10%" }}
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col justify-center items-center w-96 max-[880px]:mb-20 -mt-6 overflow-x-hidden"
+            className="flex flex-col justify-center items-center w-96 max-[880px]:mb-20 -mt-6"
           >
             <div className="border-2 border-[#FEF6C7] rounded-lg">
               <img className="w-60 p-2" src="/project/Meteoria.png" alt="" />
@@ -53,7 +53,7 @@ const Testimonial: NextPage = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="flex flex-col justify-center items-center w-96 max-[880px]:mb-20 overflow-x-hidden"
+            className="flex flex-col justify-center items-center w-96 max-[880px]:mb-20"
           >
             <div className="border-2 border-[#FEF6C7] rounded-lg">
               <img className="w-60 p-2" src="/project/earpitz.png" alt="" />
@@ -80,7 +80,7 @@ const Testimonial: NextPage = () => {
             whileInView={{ opacity: 1, x: "0%" }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col justify-center items-center w-96 overflow-x-hidden"
+            className="flex flex-col justify-center items-center w-96"
           >
             <div className="border-2 border-[#FEF6C7] rounded-lg">
               <img className="w-60 p-2" src="/project/Cultists.webp" alt="" />
