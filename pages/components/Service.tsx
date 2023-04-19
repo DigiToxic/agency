@@ -82,7 +82,7 @@ const Service: NextPage = () => {
               Influencer marketing
             </p>
             <p className="text-center font-[transducer-hairline] mb-6">
-              NFT influencer marketing is one the most effective tool we've used
+              NFT influencer marketing is one the most effective tool we&apos;ve used
               at Caspers Lbas to grow NFT communities and sell out the various
               NFT collections. NFT influencer marketing will help you
               supercharge community growth on Twitter and Discord.
