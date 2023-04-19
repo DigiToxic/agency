@@ -70,7 +70,7 @@ const Home: NextPage = () => {
 
       <div className="flex justify-center items-center mt-36 max-[650px]:flex-col">
         <motion.div
-          initial={{ opacity: 0, x: "-100%" }}
+          initial={{ opacity: 0, x: "-30%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
           </p>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: "100%" }}
+          initial={{ opacity: 0, x: "30%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
 
       <div className="bg-white w-full h-[200px] flex justify-evenly items-center mt-24 max-[751px]:grid max-[751px]:grid-cols-2">
         <motion.div
-          initial={{ opacity: 0, x: "-100%" }}
+          initial={{ opacity: 0, x: "-10%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.2}}
