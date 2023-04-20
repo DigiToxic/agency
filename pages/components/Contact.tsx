@@ -7,7 +7,10 @@ const Contact: NextPage = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div id="Contact" className="bg-[#111111] flex flex-col h-[650px] max-[1100px]:h-[780px]">
+    <div
+      id="Contact"
+      className="bg-[#111111] flex flex-col h-[650px] max-[1100px]:h-[780px]"
+    >
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -17,82 +20,89 @@ const Contact: NextPage = () => {
         <p className="text-black">Contact us</p>
       </motion.div>
 
-      <div className="max-[1100px]:flex justify-center">
-        <div className="flex justify-evenly mt-10 max-[1100px]:flex-col max-[1100px]:w-3/4">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col w-1/4 max-[1100px]:w-full"
-          >
-            <div>
-              <p className="mb-2 font-[transducer-medium] text-lg">Name</p>
-              <input
-                className="mb-4 w-full bg-transparent border-2 border-[#FEF6C7] text-white rounded"
-                type="text"
-              />
-            </div>
-            <div>
-              <p className="mb-2 font-[transducer-medium] text-lg">E-mail</p>
-              <input
-                className="mb-4 w-full bg-transparent border-2 border-[#FEF6C7] text-white rounded"
-                type="text"
-              />
-            </div>
-          </motion.div>
+        <div className="max-[1100px]:flex justify-center">
+          <div className="flex justify-evenly mt-10 max-[1100px]:flex-col max-[1100px]:w-3/4">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
+              className="flex flex-col w-1/4 max-[1100px]:w-full"
+            >
+              <div>
+                <p className="mb-2 font-[transducer-medium] text-lg">Name</p>
+                <input
+                  className="mb-4 w-full bg-transparent border-2 border-[#FEF6C7] text-white rounded"
+                  type="text"
+                  name="name"
+                />
+              </div>
+              <div>
+                <p className="mb-2 font-[transducer-medium] text-lg">E-mail</p>
+                <input
+                  className="mb-4 w-full bg-transparent border-2 border-[#FEF6C7] text-white rounded"
+                  type="email"
+                  name="email"
+                  placeholder="Email address..."
+                />
+              </div>
+            </motion.div>
 
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
+              className="flex flex-col w-1/4 max-[1100px]:w-full"
+            >
+              <div>
+                <p className="mb-2 font-[transducer-medium] text-lg">Subject</p>
+                <input
+                  className="mb-4 w-full bg-transparent border-2 border-[#FEF6C7] text-white rounded"
+                  type="text"
+                  name="_subject"
+                />
+              </div>
+              <div>
+                <p className="mb-2 font-[transducer-medium] text-lg">
+                  Discord Username
+                </p>
+                <input
+                  className="mb-4 w-full bg-transparent border-2 border-[#FEF6C7] text-white rounded"
+                  type="text"
+                />
+              </div>
+            </motion.div>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2, duration: 0.8, type: "spring" }}
-            className="flex flex-col w-1/4 max-[1100px]:w-full"
+            transition={{ delay: 0.4, duration: 0.8 }}
+            className="flex flex-col w-2/3 max-[1100px]:w-5/6"
           >
-            <div>
-              <p className="mb-2 font-[transducer-medium] text-lg">Subject</p>
-              <input
-                className="mb-4 w-full bg-transparent border-2 border-[#FEF6C7] text-white rounded"
-                type="text"
-              />
-            </div>
-            <div>
-              <p className="mb-2 font-[transducer-medium] text-lg">
-                Discord Username
-              </p>
-              <input
-                className="mb-4 w-full bg-transparent border-2 border-[#FEF6C7] text-white rounded"
-                type="text"
-              />
-            </div>
+            <p className="mb-2 font-[transducer-medium] text-lg">Message</p>
+
+            <textarea placeholder="Write your message here..." className="resize-none mb-4 w-full h-40 bg-transparent border-2 border-[#FEF6C7] text-white rounded" />
           </motion.div>
         </div>
-      </div>
 
-      <div className="flex justify-center">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.4, duration: 0.8 }}
-          className="flex flex-col w-2/3 max-[1100px]:w-5/6"
+          transition={{ delay: 0.4, duration: 0.8, type: "spring" }}
+          className="flex justify-end"
         >
-          <p className="mb-2 font-[transducer-medium] text-lg">Message</p>
-          <textarea className="resize-none mb-4 w-full h-40 bg-transparent border-2 border-[#FEF6C7] text-white rounded" />
+          <div className="flex justify-center mr-[17%] mt-10 w-60 font-[transducer-black] bg-[#f7e688] text-white rounded-2xl py-1 px-10 text-2xl cursor-pointer hover:scale-110 ease-in-out duration-300 max-[1100px]:mr-[8%]">
+            <button type="submit" className="text-black">
+              Submit
+            </button>
+          </div>
         </motion.div>
-      </div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.4, duration: 0.8, type: "spring" }}
-        className="flex justify-end"
-      >
-        <div className="flex justify-center mr-[17%] mt-10 w-60 font-[transducer-black] bg-[#f7e688] text-white rounded-2xl py-1 px-10 text-2xl cursor-pointer hover:scale-110 ease-in-out duration-300 max-[1100px]:mr-[8%]">
-          <p className="text-black">Submit</p>
-        </div>
-      </motion.div>
 
       {/*  <footer className="mt-20 flex flex-col">
         <div className="bg-[#111111] flex justify-center">

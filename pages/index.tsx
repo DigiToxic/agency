@@ -105,7 +105,7 @@ const Home: NextPage = () => {
           transition={{ delay: 0.2, duration: 0.2 }}
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
-            33k
+            70
           </p>
           <p className="font-[transducer-hairline] text-black text-center">
             Projects Completed
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
           transition={{ delay: 0.4, duration: 0.4 }}
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
-            10m
+            3m
           </p>
           <p className="font-[transducer-hairline] text-black text-center">
             Twitter Reach
@@ -133,7 +133,7 @@ const Home: NextPage = () => {
           transition={{ delay: 0.6, duration: 0.6 }}
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
-            69420$
+            80000$
           </p>
           <p className="font-[transducer-hairline] text-black text-center">
             Generated Profit
@@ -147,7 +147,7 @@ const Home: NextPage = () => {
           transition={{ delay: 0.8, duration: 0.8 }}
         >
           <p className="font-[transducer-black] text-black text-center text-7xl max-[1100px]:text-6xl max-[951px]:text-5xl max-[500px]:text-4xl">
-            20m
+            1m
           </p>
           <p className="font-[transducer-hairline] text-black text-center">
             Discord Reach
